@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anniversary Greetings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="ann.gif" alt="Anniversary" class="anniversary-gif">
+    <h2 id="greeting">Selamat Hari Anniversary!</h2>
+    <div id="messageContainer"></div>
+    <button id="nextButton" onclick="nextStep()">Lanjut</button>
+    <button id="closeButton" onclick="closeOverlay()" style="display: none;">Close</button>
+    <div class="photos">
+      <img class="photo" src="photo1.jpeg" alt="Photo 1">
+      <img class="photo" src="photo2.jpeg" alt="Photo 2">
+      <img class="photo" src="photo3.jpeg" alt="Photo 3">
+      <img class="photo" src="photo4.jpeg" alt="Photo 4">
+      <img class="photo" src="photo5.jpeg" alt="Photo 5">
+    </div>
+  </div>
+
+  <audio id="audio" src="romantis.mp3" play></audio>
+  <img id="image" src="ann.gif">
+
+  <script src="script.js"></script>
+</body>
+</html>
